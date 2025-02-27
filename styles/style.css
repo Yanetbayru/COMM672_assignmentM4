@@ -1,0 +1,286 @@
+/* General Styles */
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    background-color: #fdf6ec;
+
+    color: #333;
+
+}
+
+
+
+header {
+
+    background-color: #FAD7A0;
+
+    text-align: center;
+
+    padding: 20px;
+
+}
+
+
+
+header img {
+
+    width: 150px;
+
+}
+
+
+
+h1 {
+
+    font-size: 2em;
+
+    margin: 10px 0;
+
+}
+
+
+
+/* Navigation */
+
+nav {
+
+    background-color: #ffcc80;
+
+    padding: 10px 0;
+
+    text-align: center;
+
+}
+
+
+
+nav ul {
+
+    list-style: none;
+
+    padding: 0;
+
+}
+
+
+
+nav ul li {
+
+    display: inline;
+
+    margin: 0 15px;
+
+}
+
+
+
+nav ul li a {
+
+    text-decoration: none;
+
+    color: #0073e6;
+
+    font-weight: bold;
+
+}
+
+
+
+/* Main Content */
+
+main {
+
+    width: 80%;
+
+    margin: 20px auto;
+
+    padding: 20px;
+
+    background: #fff;
+
+    border-radius: 8px;
+
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+h2 {
+
+    color: #d35400;
+
+}
+
+
+
+/* Features Section */
+
+.features {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 20px;
+
+}
+
+
+
+.feature {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+}
+
+
+
+.feature img {
+
+    width: 80px;
+
+    height: 80px;
+
+    background-color: #FAD7A0;
+
+    padding: 10px;
+
+    border-radius: 5px;
+
+}
+
+
+
+/* Table (Team Section) */
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 20px;
+
+}
+
+
+
+table td {
+
+    padding: 15px;
+
+    border: 1px solid #ddd;
+
+    text-align: center;
+
+}
+
+
+
+table img {
+
+    width: 100px;
+
+    border-radius: 50%;
+
+}
+
+
+
+/* Testimonials */
+
+.testimonial {
+
+    font-style: italic;
+
+    margin-top: 20px;
+
+}
+
+
+
+/* Contact Page */
+
+.linkedin-link {
+
+    color: #0073e6;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+}
+
+
+
+.linkedin-link:hover {
+
+    text-decoration: underline;
+
+}
+
+
+
+/* Footer */
+
+footer {
+
+    text-align: center;
+
+    padding: 20px;
+
+    background-color: #FAD7A0;
+
+    margin-top: 20px;
+
+    font-size: 0.9em;
+
+}
+
+
+
+/* Pseudo-elements */
+
+h2::after {
+
+    content: " 🐾";
+
+    color: #d35400;
+
+}
+
+
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    main {
+
+        width: 95%;
+
+        padding: 15px;
+
+    }
+
+
+    .feature {
+
+        flex-direction: column;
+
+        text-align: center;
+
+    }
+
+}
+
